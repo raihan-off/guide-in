@@ -1,7 +1,14 @@
 <template>
     <v-container>
         <ul>
-            <li v-for="item in list" :key="item.title">{{ item.title }}</li>
+            <!-- <li v-for="item in list" :key="item.title">{{ item.title }}</li> -->
+            <li 
+                v-bind:href="a.href"
+                v-for="a in list"
+                :key="a.title">
+                <a 
+                >{{ a.link }}</a>
+            </li>
         </ul>
     </v-container>
 </template>
@@ -14,9 +21,7 @@ export default {
     }),
     created(){
         this.list = [
-            { title: "Dicoding", link: 'dicoding.com'},
-            { title: "BWA", link: 'builtwithangga.com'},
-            { title: "Petani Kode", link: 'petanikode.com'},
+            { title: "JavascriptInfo", link: 'www.javascript.info'},
         ]
     }
 }

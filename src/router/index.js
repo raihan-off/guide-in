@@ -22,11 +22,8 @@ const routes = [
   {
     path: "/work",
     name: "work",
-    // route level code-splitting
-    // this generates a separate chunk (about.[hash].js) for this route
-    // which is lazy-loaded when the route is visited.
     component: () =>
-      import(/* webpackChunkName: "about" */ "../views/WorkView.vue"),
+      import("../views/WorkView.vue"),
   },
 
 
@@ -34,25 +31,16 @@ const routes = [
   {
     path: "/pemrograman",
     name: "pemrograman",
-    // route level code-splitting
-    // this generates a separate chunk (about.[hash].js) for this route
-    // which is lazy-loaded when the route is visited.
     component: () => import("../views/codepages/PemrogramanPage.vue"),
   },
   {
     path: "/desain",
     name: "desain",
-    // route level code-splitting
-    // this generates a separate chunk (about.[hash].js) for this route
-    // which is lazy-loaded when the route is visited.
     component: () => import("../views/desainpage/DesainPage.vue"),
   },
   {
     path: "/musik",
     name: "musik",
-    // route level code-splitting
-    // this generates a separate chunk (about.[hash].js) for this route
-    // which is lazy-loaded when the route is visited.
     component: () => import("../views/musikpage/MusikPage.vue"),
   },
 
@@ -61,10 +49,27 @@ const routes = [
   {
     path: "/listDoc",
     name: "listDoc",
-    // route level code-splitting
-    // this generates a separate chunk (about.[hash].js) for this route
-    // which is lazy-loaded when the route is visited.
     component: () => import("../views/codepages/subcodepages/ListDoc.vue"),
+  },
+  {
+    path: "/listCourse",
+    name: "listCourse",
+    component: () => import("../views/codepages/subcodepages/ListCourse.vue"),
+  },
+  {
+    path: "/listUsefull",
+    name: "listUsefull",
+    component: () => import("../views/codepages/subcodepages/ListUsefull.vue"),
+  },
+  {
+    path: "/listPlayground",
+    name: "listPlayground",
+    component: () => import("../views/codepages/subcodepages/ListPlayground.vue"),
+  },
+  {
+    path: "/listGameCode",
+    name: "listGameCode",
+    component: () => import("../views/codepages/subcodepages/ListGameCode.vue"),
   },
 ];
 

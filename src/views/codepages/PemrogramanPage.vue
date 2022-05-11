@@ -32,12 +32,7 @@
             </div>
             </v-card-text>
             <v-card-actions>
-            <v-btn
-                text
-                color="deep-purple accent-4"
-            >
-                Kunjungi
-            </v-btn>
+                <router-link to="/ListCourse">Kunjungi</router-link>
             </v-card-actions>
         </v-card>
                 <v-card
@@ -54,12 +49,7 @@
             </div>
             </v-card-text>
             <v-card-actions>
-            <v-btn
-                text
-                color="deep-purple accent-4"
-            >
-                Kunjungi
-            </v-btn>
+                <router-link to="/ListUsefull">Kunjungi</router-link>
             </v-card-actions>
         </v-card>
         </v-row>
@@ -78,12 +68,7 @@
             </div>
             </v-card-text>
             <v-card-actions>
-            <v-btn
-                text
-                color="deep-purple accent-4"
-            >
-                Kunjungi
-            </v-btn>
+                <router-link to="/ListPlayground">Kunjungi</router-link>
             </v-card-actions>
         </v-card>
                 <v-card
@@ -100,12 +85,7 @@
             </div>
             </v-card-text>
             <v-card-actions>
-            <v-btn
-                text
-                color="deep-purple accent-4"
-            >
-                Kunjungi
-            </v-btn>
+                <router-link to="/ListGameCode">Kunjungi</router-link>
             </v-card-actions>
         </v-card>
                 <v-card
