@@ -88,4 +88,8 @@ export default {
 .item h5 {
   font-weight: 100;
 }
+
+.r-link{
+  text-decoration: none;
+}
 </style>

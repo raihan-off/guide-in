@@ -19,10 +19,10 @@
           </p>
           <v-row class="mx-5">
             <v-btn class="mr-5" color="#2F3241" target="_blank">
-              <router-link to="/Information">Information</router-link>
+              <router-link class="r-link white--text" to="/Information">Information</router-link>
             </v-btn>
             <v-btn class="">
-              <router-link to="/Work">Work</router-link>
+              <router-link class="r-link" to="/Work">Work</router-link>
             </v-btn>
           </v-row>
         </v-col>

@@ -8,14 +8,14 @@
                 <v-card-text>
                 <div>list</div>
                 <p class="text-h4 text--primary">
-                    Pemutar Music
+                    Pemutar Musik
                 </p>
                 <div class="text--primary">
-                    Daftar music player
+                    Daftar musik player
                 </div>
                 </v-card-text>
                 <v-card-actions>
-                    <router-link to="/ListMusikPlayer">Kunjungi</router-link>
+                    <router-link class="r-link" to="/ListMusikPlayer">Kunjungi</router-link>
                 </v-card-actions>
             </v-card>
             <v-card
@@ -32,7 +32,7 @@
                 </div>
                 </v-card-text>
                 <v-card-actions>
-                    <router-link to="/ListLirik">Kunjungi</router-link>
+                    <router-link class="r-link" to="/ListLirik">Kunjungi</router-link>
                 </v-card-actions>
             </v-card>
             <v-card
@@ -45,11 +45,11 @@
                     Cord
                 </p>
                 <div class="text--primary">
-                    Daftar cord music
+                    Daftar cord musik
                 </div>
                 </v-card-text>
                 <v-card-actions>
-                    <router-link to="/ListCord">Kunjungi</router-link>
+                    <router-link class="r-link" to="/ListCord">Kunjungi</router-link>
                 </v-card-actions>
             </v-card>
         </v-row>

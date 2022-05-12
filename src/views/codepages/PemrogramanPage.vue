@@ -15,7 +15,7 @@
             </div>
             </v-card-text>
             <v-card-actions>
-                <router-link to="/ListDoc">Kunjungi</router-link>
+                <router-link class="r-link" to="/ListDoc">Kunjungi</router-link>
             </v-card-actions>
         </v-card>
                 <v-card
@@ -32,7 +32,7 @@
             </div>
             </v-card-text>
             <v-card-actions>
-                <router-link to="/ListCourse">Kunjungi</router-link>
+                <router-link class="r-link" to="/ListCourse">Kunjungi</router-link>
             </v-card-actions>
         </v-card>
                 <v-card
@@ -49,7 +49,7 @@
             </div>
             </v-card-text>
             <v-card-actions>
-                <router-link to="/ListUsefull">Kunjungi</router-link>
+                <router-link class="r-link" to="/ListUsefull">Kunjungi</router-link>
             </v-card-actions>
         </v-card>
         </v-row>
@@ -68,7 +68,7 @@
             </div>
             </v-card-text>
             <v-card-actions>
-                <router-link to="/ListPlayground">Kunjungi</router-link>
+                <router-link class="r-link" to="/ListPlayground">Kunjungi</router-link>
             </v-card-actions>
         </v-card>
                 <v-card
@@ -85,7 +85,7 @@
             </div>
             </v-card-text>
             <v-card-actions>
-                <router-link to="/ListGameCode">Kunjungi</router-link>
+                <router-link class="r-link" to="/ListGameCode">Kunjungi</router-link>
             </v-card-actions>
         </v-card>
                 <v-card

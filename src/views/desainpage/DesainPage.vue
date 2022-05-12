@@ -15,7 +15,7 @@
                 </div>
                 </v-card-text>
                 <v-card-actions>
-                    <router-link to="/ListColor">Kunjungi</router-link>
+                    <router-link class="r-link" to="/ListColor">Kunjungi</router-link>
                 </v-card-actions>
             </v-card>
             <v-card
@@ -32,7 +32,7 @@
                 </div>
                 </v-card-text>
                 <v-card-actions>
-                    <router-link to="/ListIconIllus">Kunjungi</router-link>
+                    <router-link class="r-link" to="/ListIconIllus">Kunjungi</router-link>
                 </v-card-actions>
             </v-card>
             <v-card
@@ -49,7 +49,7 @@
                 </div>
                 </v-card-text>
                 <v-card-actions>
-                    <router-link to="/ListUploadDesain">Kunjungi</router-link>
+                    <router-link class="r-link" to="/ListUploadDesain">Kunjungi</router-link>
                 </v-card-actions>
             </v-card>
         </v-row>
