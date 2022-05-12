@@ -21,11 +21,8 @@ export default {
     }),
     created(){
         this.list = [
-            { title: "Neumorphism", link: 'neumorphism.io'},
-            { title: "Css Button", link: 'cssbuttons.io'},
-            { title: "Css Trick", link: 'css-tricks.com'},
-            { title: "Material Design Icon", link: 'materialdesignicons.com'},
-            { title: "Popper JS", link: 'popper.js.org'},
+            { title: "Behance", link: 'behance.net'},
+            { title: "Dribbble", link: 'dribbble.com'},
         ]
     }
 }

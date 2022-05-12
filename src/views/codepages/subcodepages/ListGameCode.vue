@@ -21,9 +21,7 @@ export default {
     }),
     created(){
         this.list = [
-            { title: "Dicoding", link: 'dicoding.com'},
-            { title: "BWA", link: 'builtwithangga.com'},
-            { title: "Petani Kode", link: 'petanikode.com'},
+            { title: "Codingame", link: 'codingame.com'},
         ]
     }
 }

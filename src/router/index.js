@@ -5,6 +5,7 @@ import HomeView from "../views/HomeView.vue";
 Vue.use(VueRouter);
 
 const routes = [
+  //Main Page
   {
     path: "/",
     name: "home",
@@ -27,7 +28,7 @@ const routes = [
   },
 
 
-  //information
+  //INFORMATION PAGE
   {
     path: "/pemrograman",
     name: "pemrograman",
@@ -45,7 +46,7 @@ const routes = [
   },
 
 
-  //subpemrograman
+  //Sub Pemrograman Page
   {
     path: "/listDoc",
     name: "listDoc",
@@ -71,6 +72,45 @@ const routes = [
     name: "listGameCode",
     component: () => import("../views/codepages/subcodepages/ListGameCode.vue"),
   },
+
+
+  //Sub Desain Page
+  {
+    path: "/listColor",
+    name: "listColor",
+    component: () => import("../views/desainpage/subdesainpage/listColor.vue"),
+  },
+  {
+    path: "/listIconIllus",
+    name: "listIconIllus",
+    component: () => import("../views/desainpage/subdesainpage/listIconIllus.vue"),
+  },
+  {
+    path: "/listUploadDesain",
+    name: "listUploadDesain",
+    component: () => import("../views/desainpage/subdesainpage/listUploadDesain.vue"),
+  },
+
+
+  //Sub Musik Page
+  {
+    path: "/listMusikPlayer",
+    name: "listMusikPlayer",
+    component: () => import("../views/musikpage/submusicpage/listMusikPlayer.vue"),
+  },
+  {
+    path: "/listLirik",
+    name: "listMusikPlayer",
+    component: () => import("../views/musikpage/submusicpage/listLirik.vue"),
+  },
+  {
+    path: "/listCord",
+    name: "listCord",
+    component: () => import("../views/musikpage/submusicpage/listCord.vue"),
+  },
+
+
+  //WORK PAGE
 ];
 
 const router = new VueRouter({
