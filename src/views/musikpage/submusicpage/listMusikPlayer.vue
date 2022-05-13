@@ -31,6 +31,13 @@ export default {
     created(){
         this.list = [
             { title: "Soundcloud", link: 'soundcloud.com'},
+            { title: "Amazon", link: 'music.amazon.com'},
+            { title: "Jamendo", link: 'jamendo.com'},
+            { title: "ReverbNation", link: 'reverbnation.com'},
+            { title: "Last fm", link: 'last.fm'},
+            { title: "Spotify", link: 'open.spotify.com'},
+            { title: "Resso", link: 'resso.com'},
+            { title: "Youtube Music", link: 'music.youtube.com'},
         ]
     }
 }

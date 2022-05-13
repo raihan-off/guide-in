@@ -30,7 +30,13 @@ export default {
     }),
     created(){
         this.list = [
-            { title: "Chordtela", link: 'Chordtela.com'},
+        { title: "Chordtela", link: 'Chordtela.com'},
+        { title: "Chordlagu", link: 'Chordlagu.id'},
+        { title: "Chordfrenzy", link: 'Chordfrenzy.com'},
+        { title: "Musikord", link: 'Musikord.com'},
+        { title: "Chordqu", link: 'Chordqu.com'},
+        { title: "Guitar Master Class", link: 'guitarmasterclass.net'},
+        { title: "Spytunes", link: 'spytunes.com'},
         ]
     }
 }

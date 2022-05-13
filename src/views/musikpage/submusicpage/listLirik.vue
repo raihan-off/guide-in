@@ -31,6 +31,14 @@ export default {
     created(){
         this.list = [
             { title: "Genius", link: 'genius.com'},
+        { title: "LetSingIt", link: 'letssingit.com'},
+        { title: "Lyric Freak", link: 'lyricsfreak.com'},
+        { title: "Song Lyric", link: 'songlyrics.com'},
+        { title: "Lyric Server", link: 'lyricserver.com'},
+        { title: "Find Music By Lyrics", link: 'findmusicbylyric.com'},
+        { title: "AZLyrics", link: 'azlyrics.com'},
+        { title: "Lyrics", link: 'lyrics.com'},
+        { title: "Lyrics Mode", link: 'lyricsmode.com'},
         ]
     }
 }
