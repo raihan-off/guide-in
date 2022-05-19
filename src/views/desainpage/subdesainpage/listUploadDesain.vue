@@ -2,12 +2,11 @@
     <v-container>
     <h1 class="mb-15">Daftar Upload Desain</h1>
         <div class="listCourse d-flex flex-wrap">
-            <div class="data-list" 
-                v-bind:href="a.href"
+            <a class="data-list" 
+                v-bind:href="a.link"
                 v-for="a in list"
-                :key="a.title">
-                <a>{{ a.link }}</a>
-            </div>
+                target="_blank"
+                :key="a.title">{{ a.title }}</a>
         </div>
         <!-- <ul>
             <li v-for="item in list" :key="item.title">{{ item.title }}</li>
@@ -30,8 +29,8 @@ export default {
     }),
     created(){
         this.list = [
-            { title: "Behance", link: 'behance.net'},
-            { title: "Dribbble", link: 'dribbble.com'},
+            { title: "Behance", link: 'https://www.behance.net/'},
+            { title: "Dribbble", link: 'https://dribbble.com/'},
         ]
     }
 }

@@ -2,12 +2,11 @@
     <v-container>
     <h1 class="mb-15">Daftar Website Lirik</h1>
         <div class="listCourse d-flex flex-wrap">
-            <div class="data-list" 
-                v-bind:href="a.href"
+            <a class="data-list" 
+                v-bind:href="a.link"
                 v-for="a in list"
-                :key="a.title">
-                <a>{{ a.link }}</a>
-            </div>
+                target="_blank"
+                :key="a.title">{{ a.title }}</a>
         </div>
         <!-- <ul>
             <li v-for="item in list" :key="item.title">{{ item.title }}</li>
@@ -30,15 +29,14 @@ export default {
     }),
     created(){
         this.list = [
-            { title: "Genius", link: 'genius.com'},
-        { title: "LetSingIt", link: 'letssingit.com'},
-        { title: "Lyric Freak", link: 'lyricsfreak.com'},
-        { title: "Song Lyric", link: 'songlyrics.com'},
-        { title: "Lyric Server", link: 'lyricserver.com'},
-        { title: "Find Music By Lyrics", link: 'findmusicbylyric.com'},
-        { title: "AZLyrics", link: 'azlyrics.com'},
-        { title: "Lyrics", link: 'lyrics.com'},
-        { title: "Lyrics Mode", link: 'lyricsmode.com'},
+            { title: "Genius", link: 'https://genius.com/'},
+        { title: "LetSingIt", link: 'https://www.letssingit.com'},
+        { title: "Lyric Freak", link: 'https://www.lyricsfreak.com'},
+        { title: "Song Lyric", link: 'http://www.songlyrics.com'},
+        { title: "Find Music By Lyrics", link: 'https://findmusicbylyrics.com'},
+        { title: "AZLyrics", link: 'https://www.azlyrics.com'},
+        { title: "Lyrics", link: 'https://www.lyrics.com'},
+        { title: "Lyrics Mode", link: 'https://www.lyricsmode.com'},
         ]
     }
 }

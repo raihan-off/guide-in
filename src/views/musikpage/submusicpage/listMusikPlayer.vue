@@ -2,12 +2,11 @@
     <v-container>
     <h1 class="mb-15">Daftar Musik Player</h1>
         <div class="listCourse d-flex flex-wrap">
-            <div class="data-list" 
-                v-bind:href="a.href"
+            <a class="data-list" 
+                v-bind:href="a.link"
                 v-for="a in list"
-                :key="a.title">
-                <a>{{ a.link }}</a>
-            </div>
+                target="_blank"
+                :key="a.title">{{ a.title }}</a>
         </div>
         <!-- <ul>
             <li v-for="item in list" :key="item.title">{{ item.title }}</li>
@@ -30,14 +29,14 @@ export default {
     }),
     created(){
         this.list = [
-            { title: "Soundcloud", link: 'soundcloud.com'},
-            { title: "Amazon", link: 'music.amazon.com'},
-            { title: "Jamendo", link: 'jamendo.com'},
-            { title: "ReverbNation", link: 'reverbnation.com'},
-            { title: "Last fm", link: 'last.fm'},
-            { title: "Spotify", link: 'open.spotify.com'},
-            { title: "Resso", link: 'resso.com'},
-            { title: "Youtube Music", link: 'music.youtube.com'},
+            { title: "Soundcloud", link: 'https://soundcloud.com'},
+            { title: "Amazon", link: 'https://music.amazon.com'},
+            { title: "Jamendo", link: 'https://www.jamendo.com'},
+            { title: "ReverbNation", link: 'https://www.reverbnation.com'},
+            { title: "Last fm", link: 'https://www.last.fm'},
+            { title: "Spotify", link: 'https://open.spotify.com'},
+            { title: "Resso", link: 'https://www.resso.com'},
+            { title: "Youtube Music", link: 'https://music.youtube.com'},
         ]
     }
 }

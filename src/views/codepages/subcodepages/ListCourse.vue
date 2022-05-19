@@ -2,12 +2,11 @@
     <v-container>
     <h1 class="mb-15">Daftar Pembelajaran Coding</h1>
         <div class="listCourse d-flex flex-wrap">
-            <div class="data-list" 
-                v-bind:href="a.href"
+            <a class="data-list" 
+                v-bind:href="a.link"
                 v-for="a in list"
-                :key="a.title">
-                <a>{{ a.link }}</a>
-            </div>
+                target="_blank"
+                :key="a.title">{{ a.title }}</a>
         </div>
         <!-- <ul>
             <li v-for="item in list" :key="item.title">{{ item.title }}</li>
@@ -30,14 +29,14 @@ export default {
     }),
     created(){
         this.list = [
-            { title: "Dicoding", link: 'dicoding.com'},
-            { title: "BWA", link: 'builtwithangga.com'},
-            { title: "Petani Kode", link: 'petanikode.com'},
-            { title: "Dev Saurus", link: 'devsaurus.com'},
-            { title: "W3schools", link: 'w3schools.com'},
-            { title: "Progate", link: 'progate.com'},
-            { title: "Malas Ngoding", link: 'malasngoding.com'},
-            { title: "Ilmu Koding", link: 'ilmukoding.com'},
+            { title: "Dicoding", link: 'https://www.dicoding.com'},
+            { title: "BWA", link: 'https://buildwithangga.com'},
+            { title: "Petani Kode", link: 'https://www.petanikode.com'},
+            { title: "Dev Saurus", link: 'https://devsaurus.com'},
+            { title: "W3schools", link: 'https://www.w3schools.com/'},
+            { title: "Progate", link: 'https://progate.com/'},
+            { title: "Malas Ngoding", link: 'https://www.malasngoding.com'},
+            { title: "Ilmu Koding", link: 'https://ilmukoding.com/'},
         ]
     }
 }

@@ -2,12 +2,11 @@
     <v-container>
     <h1 class="mb-15">Daftar Playground Code</h1>
         <div class="listCourse d-flex flex-wrap">
-            <div class="data-list" 
-                v-bind:href="a.href"
+                <a class="data-list" 
+                v-bind:href="a.link"
                 v-for="a in list"
-                :key="a.title">
-                <a>{{ a.link }}</a>
-            </div>
+                target="_blank"
+                :key="a.title">{{ a.title }}</a>
         </div>
         <!-- <ul>
             <li v-for="item in list" :key="item.title">{{ item.title }}</li>
@@ -30,8 +29,8 @@ export default {
     }),
     created(){
         this.list = [
-            { title: "Playcode", link: 'playcode.io'},
-            { title: "jsfiddle", link: 'jsfiddle.net'},
+            { title: "Playcode", link: 'https://playcode.io/'},
+            { title: "jsfiddle", link: 'https://jsfiddle.net/'},
         ]
     }
 }
