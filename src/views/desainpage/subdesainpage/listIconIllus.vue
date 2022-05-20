@@ -2,7 +2,7 @@
     <v-container>
     <h1 class="mb-15">Daftar Icon dan Illustrasi</h1>
         <div class="listCourse d-flex flex-wrap">
-            <a class="data-list" 
+            <a class="data-list black--text" 
                 v-bind:href="a.link"
                 v-for="a in list"
                 target="_blank"
@@ -45,5 +45,6 @@ export default {
     width: 30%;
     height: 50px;
     text-align: center;
+    text-decoration: none;
 }
 </style>

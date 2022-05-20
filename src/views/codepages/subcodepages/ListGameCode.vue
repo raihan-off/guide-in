@@ -2,7 +2,7 @@
     <v-container>
     <h1 class="mb-15">Daftar Game Code</h1>
         <div class="listCourse d-flex flex-wrap">
-            <a class="data-list" 
+            <a class="data-list black--text" 
                 v-bind:href="a.link"
                 v-for="a in list"
                 target="_blank"
@@ -30,6 +30,16 @@ export default {
     created(){
         this.list = [
             { title: "Codingame", link: 'https://www.codingame.com'},
+            { title: "Code Monkey", link : 'https://www.codemonkey.com'},
+            { title: "CSS Diner", link : 'https://flukeout.github.io'},
+            { title: "Flex Box Froggy", link : 'https://flexboxfroggy.com'},
+            { title: "Code Combat", link : 'https://codecombat.com'},
+            { title: "Top Coder", link : 'https://www.topcoder.com'},
+            { title: "Coderbyte", link : 'https://coderbyte.com'},
+            { title: "Project Euler", link : 'https://projecteuler.net'},
+            { title: "Hackerrank", link : 'https://www.hackerrank.com'},
+            { title: "Codechef", link : 'https://www.codechef.com'},
+            { title: "Exercism", link : 'https://exercism.org/'},
         ]
     }
 }
@@ -45,5 +55,6 @@ export default {
     width: 30%;
     height: 50px;
     text-align: center;
+    text-decoration: none;
 }
 </style>
