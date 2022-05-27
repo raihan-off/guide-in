@@ -46,8 +46,8 @@
         <v-col class="item">
           <h3>Product</h3>
           <br />
-          <h5>Guide.in Information</h5>
-          <h5>Guide.in Work</h5>
+          <router-link class="r-link white--text" to="/Information"><h5>Guide.in Information</h5></router-link>
+          <router-link class="r-link white--text" to="/Work"><h5>Guide.in Work</h5></router-link>
         </v-col>
 
         <v-col class="item">
@@ -61,9 +61,9 @@
         <v-col class="item">
           <h3>Social Media</h3>
           <br />
-          <h5>@ercodesistant</h5>
-          <h5>@Ercodesistant</h5>
-          <h5>Ercodesistant@gmail.com</h5></v-col
+          <h5>IG : @ercodesistant</h5>
+          <h5>Twitter : @Ercodesistant</h5>
+          <h5>Email : Ercodesistant@gmail.com</h5></v-col
         >
       </v-row>
     </v-footer>

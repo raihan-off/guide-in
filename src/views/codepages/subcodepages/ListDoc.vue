@@ -30,6 +30,14 @@ export default {
     created(){
         this.list = [
             { title: "Javascript info", link: 'https://javascript.info'},
+            { title: "Java Doc", link: 'https://docs.oracle.com/en/java'},
+            { title: "PHP Doc", link: 'https://www.php.net/docs.php'},
+            { title: "JavaScript Doc", link: 'https://developer.mozilla.org/en-US/docs/Web/JavaScript'},
+            { title: "Go Doc", link: 'https://go.dev/doc/'},
+            { title: "TypeScript", link: 'https://www.typescriptlang.org/docs/'},
+            { title: "React", link: 'https://reactjs.org/docs/getting-started.html'},
+            { title: "Vue", link: 'https://vuejs.org/guide/introduction.html'},
+            { title: "Laravel", link: 'https://laravel.com/docs/9.x/installation'},
         ]
     }
 }

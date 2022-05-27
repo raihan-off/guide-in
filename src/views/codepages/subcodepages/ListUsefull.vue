@@ -34,6 +34,9 @@ export default {
             { title: "Css Trick", link: 'https://css-tricks.com/'},
             { title: "Material Design Icon", link: 'https://materialdesignicons.com/'},
             { title: "Popper JS", link: 'https://popper.js.org/'},
+            { title: "Carbon", link: 'https://carbon.now.sh/'},
+            { title: "Css Gradient", link: 'https://cssgradient.io/'},
+            { title: "Color Spark", link: 'https://colorspark.app/gradients'},
         ]
     }
 }

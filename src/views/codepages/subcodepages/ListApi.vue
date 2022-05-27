@@ -1,6 +1,6 @@
 <template>
     <v-container>
-    <h1 class="mb-15">Daftar Warna</h1>
+    <h1 class="mb-15">Daftar Website API</h1>
         <div class="listCourse d-flex flex-wrap">
             <a class="data-list black--text" 
                 v-bind:href="a.link"
@@ -29,10 +29,10 @@ export default {
     }),
     created(){
         this.list = [
-            { title: "Colorhunt", link: 'https://colorhunt.co'},
-            { title: "HappyHues", link: 'https://www.happyhues.co'},
-            { title: "Coolors", link: 'https://coolors.co/'},
-            { title: "Grabient", link: 'https://www.grabient.com/'},
+            { title: "Any API", link: 'https://any-api.com/'},
+            { title: "Open APIs", link: 'https://www.openapis.org/'},
+            { title: "Swagger", link: 'https://swagger.io/'},
+            { title: "Stoplight", link: 'https://stoplight.io/'},
         ]
     }
 }

@@ -88,6 +88,23 @@
                 <router-link class="r-link" to="/ListGameCode">Kunjungi</router-link>
             </v-card-actions>
         </v-card>
+                        <v-card
+            class="mx-auto my-5"
+            max-width="344"
+        >
+            <v-card-text>
+            <div>list</div>
+            <p class="text-h4 text--primary">
+                Website API
+            </p>
+            <div class="text--primary">
+                Daftar website API
+            </div>
+            </v-card-text>
+            <v-card-actions>
+                <router-link class="r-link" to="/ListApi">Kunjungi</router-link>
+            </v-card-actions>
+        </v-card>
                 <v-card
             class="mx-auto my-5"
             max-width="344"
@@ -95,7 +112,7 @@
             <v-card-text>
             <div>list</div>
             <p class="text-h4 text--primary">
-                lainnya
+                Temukan lainnya
             </p>
             <div class="text--primary">
                 Cari daftar lainnya?

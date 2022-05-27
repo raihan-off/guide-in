@@ -36,7 +36,6 @@ export default {
             { title: "W3schools", link: 'https://www.w3schools.com/'},
             { title: "Progate", link: 'https://progate.com/'},
             { title: "Malas Ngoding", link: 'https://www.malasngoding.com'},
-            { title: "Ilmu Koding", link: 'https://ilmukoding.com/'},
         ]
     }
 }

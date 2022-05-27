@@ -72,6 +72,11 @@ const routes = [
     name: "listGameCode",
     component: () => import("../views/codepages/subcodepages/ListGameCode.vue"),
   },
+  {
+    path: "/listapi",
+    name: "listapi",
+    component: () => import("../views/codepages/subcodepages/ListApi.vue"),
+  },
 
 
   //Sub Desain Page

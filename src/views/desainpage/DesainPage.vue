@@ -8,7 +8,7 @@
                 <v-card-text>
                 <div>list</div>
                 <p class="text-h4 text--primary">
-                    Color
+                    Website Color
                 </p>
                 <div class="text--primary">
                     Daftar color picker

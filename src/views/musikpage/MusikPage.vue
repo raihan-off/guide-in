@@ -25,7 +25,7 @@
                 <v-card-text>
                 <div>list</div>
                 <p class="text-h4 text--primary">
-                    Lirik
+                    Website Lirik
                 </p>
                 <div class="text--primary">
                     Daftar lirik musik
@@ -42,7 +42,7 @@
                 <v-card-text>
                 <div>list</div>
                 <p class="text-h4 text--primary">
-                    Cord
+                    Website Cord
                 </p>
                 <div class="text--primary">
                     Daftar cord musik

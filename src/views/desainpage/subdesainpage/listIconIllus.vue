@@ -30,6 +30,19 @@ export default {
     created(){
         this.list = [
             { title: "Undraw", link: 'https://undraw.co'},
+            { title: "Humaaans", link: 'https://www.humaaans.com/'},
+            { title: "UI8", link: 'https://ui8.net/'},
+            { title: "Icons8", link: 'https://icons8.com/illustrations'},
+            { title: "Manypixels", link: 'https://www.manypixels.co/gallery'},
+            { title: "DrawKit", link: 'https://drawkit.com/'},
+            { title: "Opendoodles", link: 'https://www.opendoodles.com/'},
+            { title: "Illlustrations", link: 'https://illlustrations.co/'},
+            { title: "Isometric", link: 'https://isometric.online/'},
+            { title: "Usesmash", link: 'https://usesmash.com/'},
+            { title: "Woobro Design", link: 'https://woobro.design/'},
+            { title: "Ira Design", link: 'https://iradesign.io/'},
+            { title: "Absurd Design", link: 'https://absurd.design/'},
+            { title: "Pixel True", link: 'https://www.pixeltrue.com/free-illustrations'},
         ]
     }
 }

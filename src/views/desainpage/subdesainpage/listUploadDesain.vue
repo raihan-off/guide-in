@@ -31,6 +31,7 @@ export default {
         this.list = [
             { title: "Behance", link: 'https://www.behance.net/'},
             { title: "Dribbble", link: 'https://dribbble.com/'},
+            { title: "Pinters", link: 'https://www.pinterest.com/'},
         ]
     }
 }
